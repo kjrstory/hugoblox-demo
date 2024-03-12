@@ -182,6 +182,7 @@
     bottom: 0px;
     left: 20%; /* no idea why 20% centers it */
     font-size: 10px;
+    writing-mode: vertical-rl;
     text-orientation: sideways;
   }
   
