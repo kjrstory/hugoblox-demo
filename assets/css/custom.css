@@ -170,10 +170,10 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    font-size: 25px;
+    font-size: 15px;
     color: gold;
     writing-mode: vertical-rl;
-    text-orientation: mixed;
+    text-orientation: sideways;
   }
   
   .spine-author {
@@ -181,7 +181,8 @@
     color: goldenrod;
     bottom: 0px;
     left: 20%; /* no idea why 20% centers it */
-    font-size: 20px;
+    font-size: 10px;
+    text-orientation: sideways;
   }
   
   .top {
