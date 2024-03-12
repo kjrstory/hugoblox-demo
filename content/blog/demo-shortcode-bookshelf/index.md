@@ -11,6 +11,9 @@ tags:
   - Markdown
   - shortcode
 
+image:
+  caption: 'Hugo Shortcode Bookshelf'
+
 bookshelf_item:
   - title: Dune
     cover_img: https://m.media-amazon.com/images/I/81TmnPZWb0L._SL200_.jpg
