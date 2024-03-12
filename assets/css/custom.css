@@ -168,7 +168,7 @@
   .spine-title {
     margin: 2px;
     position: absolute;
-    top: 0px;
+    top: 5px;
     left: 0px;
     font-size: 15px;
     color: gold;
@@ -180,10 +180,8 @@
     position: absolute;
     color: goldenrod;
     bottom: 0px;
-    left: 20%; /* no idea why 20% centers it */
+    left: 0%; /* no idea why 20% centers it */
     font-size: 10px;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
   }
   
   .top {

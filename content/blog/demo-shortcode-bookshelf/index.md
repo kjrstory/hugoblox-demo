@@ -68,12 +68,10 @@ bookshelf_item:
     cover_img: https://m.media-amazon.com/images/I/81TmnPZWb0L._SL200_.jpg
     cover_link: "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597"
     author: Frank Herbert
-    color: coral
   - title: 1984
     cover_img: https://m.media-amazon.com/images/I/91Mv6oCERWL._SL200_.jpg
     cover_link: "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934"
-    author: George Orwell
-    color: steelblue
+    author: George Orwell   
 ```
 {{< bookshelf  >}}
 
