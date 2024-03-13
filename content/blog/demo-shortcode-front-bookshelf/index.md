@@ -13,7 +13,8 @@ tags:
 
 image:
   caption: 'Hugo Shortcode Front Bookshelf'
-
+  preview_only: true
+  
 bookshelf_item:
   - cover_img: https://m.media-amazon.com/images/I/81TmnPZWb0L._SL200_.jpg
     cover_link: "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597"
