@@ -261,17 +261,26 @@
   line-height: 0;
   position: relative;
   border-radius: 2px 6px 6px 2px;
-  box-shadow: 6px 6px 18px -2px rgba(0, 0, 0, 0.2),
-    24px 28px 40px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 18px -2px rgba(0, 0, 0, 0.2), 24px 28px 40px -6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   transform: perspective(2000px) rotateY(-15deg) translateX(-10px) scaleX(0.94);
   cursor: pointer;
+  overflow: hidden;
+}
+
+.book-cover .book-image::before {
+  content: "";
+  display: block;
+  padding-top: 150%;  
 }
 
 .book-image img {
-  grid-row: 1 / -1;
-  grid-column: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover; 
   border-radius: 2px 6px 6px 2px;
 }
 
