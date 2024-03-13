@@ -225,6 +225,7 @@
   background-color: #826c59;
   background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
 }
+
 .book-items {
   position: relative;
   cursor: default;
@@ -274,7 +275,7 @@
   padding-top: 150%;  
 }
 
-.book-image img {
+.book-cover .book-image img {
   position: absolute;
   top: 0;
   left: 0;
