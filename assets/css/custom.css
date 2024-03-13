@@ -284,7 +284,10 @@
   border-radius: 2px 6px 6px 2px;
   grid-row: 1 / -1;
   grid-column: 1;
+  margin-top: 0;
 }
+
+
 
 .book-image:hover {
   transform: perspective(2000px) rotateY(0deg) translateX(0px) scaleX(1);
