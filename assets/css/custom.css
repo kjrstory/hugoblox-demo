@@ -216,7 +216,7 @@
   }
 
 .book-wrapper {
-  width: 900px;
+  width: 100%;
   position: relative;
   margin: 0 auto;
   column-count: 4;
