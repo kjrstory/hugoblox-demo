@@ -20,3 +20,15 @@
   {{- .Inner | markdownify | emojify -}}
 </span>
 </div>
+
+
+<div class="flex p-4 rounded-md bg-blue-100 border-l-4 border-blue-500">
+  <div class="font-bold py-1 px-4 border-b border-blue-200 bg-blue-50">
+      <span class="text-blue-800">노트</span>
+  </div>
+  <div class="pt-2">
+      <div class="p-4 bg-blue-100 text-blue-800">
+        {{- .Inner | markdownify | emojify -}}
+      </div>
+  </div>
+</div>
