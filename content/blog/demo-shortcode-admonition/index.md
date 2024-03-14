@@ -17,7 +17,6 @@ image:
   
 --- 
 
-
 {{% callout note%}}
 {{% /callout %}}
 
@@ -25,16 +24,6 @@ image:
 Here's some important information...
 {{% /callout %}}
 
-
-{{% admonition warning %}}
-Here's some important information...
-{{% /admonition %}}
-
-
-{{% admonition warning type=warning %}}
-Here's some important information...
-{{% /admonition %}}
-
-{{% admonition warning title="NNNNNNNwarning" %}}
+{{% admonition warning type=note title="NNNNNNNwarning" %}}
 Here's some important information...
 {{% /admonition %}}
