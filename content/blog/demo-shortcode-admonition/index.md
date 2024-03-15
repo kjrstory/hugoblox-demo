@@ -1,5 +1,5 @@
 ---
-title: Admonition Shortcode Demo
+title: Admonition Shortcode Demo(Under Development)
 summary: 
 date: 2024-03-13
 
@@ -10,21 +10,21 @@ tags:
   - Hugo Blox
   - Markdown
   - shortcode
-
-image:
-  caption: 'Hugo Shortcode Bookshelf'
-  preview_only: true
   
 --- 
+
+### Hugoblox Callout
+
 {{% callout note%}}
+Here's some important information...
 {{% /callout %}}
 
 {{% callout warning %}}
 Here's some important information...
 {{% /callout %}}
 
-TTT
+### Sample Admonition
 
-{{% admonition type=note title="NNNNNNNwarning" %}}
+{{% admonition type=note title="Title" %}}
 Here's some important information...
 {{% /admonition %}}
