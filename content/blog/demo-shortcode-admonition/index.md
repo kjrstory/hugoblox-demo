@@ -16,7 +16,14 @@ image:
   preview_only: true
   
 --- 
+{{% callout note%}}
+{{% /callout %}}
 
+{{% callout warning %}}
+Here's some important information...
+{{% /callout %}}
+
+TTT
 
 {{% admonition type=note title="NNNNNNNwarning" %}}
 Here's some important information...
