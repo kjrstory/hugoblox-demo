@@ -5,6 +5,9 @@
 {{ $class_text := "text-primary-400" }}
 
 
+{{ $class := "bg-blue-200 dark:bg-primary-900 bg-primary-200" }}
+{{ $class := "bg-blue-600 dark:bg-primary-900 bg-primary-200" }}
+
 <div class="flex flex-col bg-blue-200 border-l-4 border-blue-600">
   <div class="flex items-center px-2 py-1 border-b border-solid border-blue-300 bg-blue-200">
       {{ partial "functions/get_icon" (dict "name" $icon "attributes" "height=\"24\"") }}
